@@ -8,7 +8,7 @@ public class PrintDigitsRecursion {
         if (n == 0) {
             return;
         }
-        System.out.println(n%10);
-        print(n/10);
+        System.out.println(n % 10);
+        print(n / 10);
     }
 }

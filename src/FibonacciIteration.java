@@ -12,11 +12,11 @@ public class FibonacciIteration {
         List<Integer> fib = new ArrayList<>();
         fib.add(0);
         fib.add(1);
-        System.out.print (fib.get(0) + " ");
-        System.out.print (fib.get(1) + " ");
-        for (int i = 2 ; i <= n ; i++){
-            fib.add(fib.get(i-1)+ fib.get(i-2));
-            System.out.print (fib.get(i) + " ");
+        System.out.print(fib.get(0) + " ");
+        System.out.print(fib.get(1) + " ");
+        for (int i = 2; i <= n; i++) {
+            fib.add(fib.get(i - 1) + fib.get(i - 2));
+            System.out.print(fib.get(i) + " ");
         }
         System.out.println("nth fib number is :: " + fib.get(n));
     }

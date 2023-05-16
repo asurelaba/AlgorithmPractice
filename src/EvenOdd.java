@@ -5,7 +5,7 @@ public class EvenOdd {
         System.out.println(check(9));
     }
 
-    public static boolean check(int num){
-        return num%2 == 0 ? true:false;
+    public static boolean check(int num) {
+        return num % 2 == 0 ? true : false;
     }
 }
